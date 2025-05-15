@@ -198,7 +198,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const newValue = input.value.trim();
 
         target.textContent = newValue || originalValue;
-        target.removeChild(input);
         activeCell = null;
       };
 
